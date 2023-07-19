@@ -77,6 +77,7 @@ runtime raising around +10s, so 300 testing cases are used for rapid test.
 Results for random sample of 300 4x4 board (All time in second):
 
 ```
+Per board
 Min time: 0.0
 Max time: 13.007856369018555
 Average time: 0.7412771248817444
