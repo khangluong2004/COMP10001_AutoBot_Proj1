@@ -84,4 +84,4 @@ Average time: 0.7412771248817444
 
 Distributions (No dependency is needed, but matplotlib is used for plotting distribution):
 
-![Alt text](image.png)
+![Alt text](distribution.png)
