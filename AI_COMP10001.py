@@ -412,15 +412,20 @@ def ai_player(board: list) -> list:
 # Testing on 4x4 matrix 
 import json
 import time
+import random
+import matplotlib.pyplot as plt
 
 test_cases = []
 with open("test_cases_4x4.json", "r") as fp:
     test_cases = json.load(fp)
 
+records = []
 min_time = -1
 max_time = -1
 total = 0
-for board in test_cases[:100]:
+sample_cases = random.sample(test_cases, 300)
+
+for board in sample_cases:
     start = time.time()
     ai_player(board)
     end = time.time()
@@ -435,12 +440,19 @@ for board in test_cases[:100]:
         min_time = time_required
     
     total += time_required
+    records.append(time_required)
 
 print(f"Min time: {min_time}")
 print(f"Max time: {max_time}")
 print(f"Average time: {total / 100}")
 
+# Plot and save figures
+plt.hist(records, bins=100, color='green')
+plt.xlabel("Time taken (s)")
+plt.ylabel("Number of cases")
+plt.savefig("distribution.png")
 
+#-------------------------------------------
 # Test cases generation for 4x4 board:
 
 # import json
