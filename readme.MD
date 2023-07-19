@@ -58,6 +58,7 @@ Key points:
 3. The Heuristic used for the implementation to prioritize the sequence of moves that:
 - Create more blank spaces
 - The average Euclidian distance between same pieces are minimized (closer = easier to form square for elimination)
+
 A score is calculated based on the Heuristic for ranking all partial sequence of moves. Details in `ai_player` function
 
 Note: The Heuristic used tends to favour DFS, as more moves generally creating more blank spaces. Thus, the sequence of moves are not the shortest available path, but the quickest that could be found.
