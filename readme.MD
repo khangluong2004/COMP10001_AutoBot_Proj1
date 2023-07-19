@@ -39,7 +39,7 @@ This leaves a 2 x 2 gap represented by four Z characters which is filled in the 
 
 3. In the event of a tie (i.e. a single move causes more than one 2 x 2 square to be formed), the square beginning at the lowest row number is eliminated. If both squares begin at the same row number, the square with the lowest column number is eliminated. Only one square may be eliminated before its gaps are filled.
 
-## Winning:
+### Winning:
 
 The player wins after eliminating all pieces from the table.
 
