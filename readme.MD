@@ -65,7 +65,7 @@ Note: The Heuristic used tends to favour DFS, as more moves generally creating m
 
 ## 3. Results:
 
-Implementations passed for the COMP10001 bonus marks.
+Implementations passed for the COMP10001 bonus marks. No ranking is provided for this project.
 
 Testing code is included. Major cases used for assignment were 4x4, but the function behaves normally on larger matrix (might be a bit slower). 
 
