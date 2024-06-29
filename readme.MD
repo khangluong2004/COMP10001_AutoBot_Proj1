@@ -1,4 +1,6 @@
 # COMP10001 Project 1: AI-player for Matching Games
+## Acknowledgement:
+All questions and initial skeleton is provided by UniMelb COMP10001 Semester 1 2023
 
 ## 1. Background
 All background info is derived from UniMelb Comp10001 course
